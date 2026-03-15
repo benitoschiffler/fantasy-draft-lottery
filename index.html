@@ -58,7 +58,14 @@
       padding: 24px 20px 60px;
       align-items: start;
     }
-    @media (max-width: 1000px) { .main-grid { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 1000px) {
+      .main-grid { grid-template-columns: 1fr 1fr; }
+      .main-grid .panel:nth-child(3) { grid-column: 1 / -1; }
+      .main-grid .panel:nth-child(3) .odds-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
     @media (max-width: 640px)  { .main-grid { grid-template-columns: 1fr; } }
 
     /* ── PANEL ── */
@@ -337,6 +344,57 @@
     .reveal-card .rc-team      { font-family: 'Bebas Neue', sans-serif; font-size: 2.8rem; letter-spacing: 3px; color: #fff; margin-top: 6px; }
     .reveal-card.pick-one .rc-team { font-size: 3.5rem; color: var(--gold); }
     .reveal-card .rc-odds      { font-size: .8rem; color: #666; margin-top: 10px; letter-spacing: 1px; }
+
+    /* ── MOBILE ── */
+    @media (max-width: 640px) {
+      header { padding: 20px 16px 14px; }
+      header p { font-size: .85rem; letter-spacing: 1px; }
+
+      .main-grid { padding: 14px 12px 40px; gap: 14px; }
+
+      .panel { padding: 16px; }
+      .panel-title { font-size: 1.15rem; margin-bottom: 14px; }
+
+      /* Machine */
+      .machine { height: 130px; }
+
+      /* Status */
+      #statusBar { font-size: 1.1rem; letter-spacing: 1px; margin: 8px 0; min-height: 32px; }
+
+      /* Mode toggle — bigger tap targets */
+      .mode-toggle { gap: 10px; margin-bottom: 12px; }
+      .mode-btn { padding: 11px 22px; font-size: .85rem; }
+
+      /* Buttons — full width on mobile */
+      .btn-wrap { margin: 14px 0 6px; }
+      #startBtn { width: 100%; font-size: 1.5rem; letter-spacing: 2px; padding: 16px 20px; }
+      #resetBtn { padding: 12px 32px; font-size: .9rem; }
+
+      /* Results */
+      .pick-slot { padding: 10px 12px; gap: 10px; min-height: 48px; }
+      .pick-number { font-size: 1.6rem; width: 28px; }
+      .pick-divider { height: 24px; }
+      .pick-team { font-size: .88rem; }
+      .pick-slot.pick-1 .pick-team { font-size: 1rem; }
+      .pick-original-odds { font-size: .65rem; }
+
+      /* Odds */
+      .odds-row { padding: 9px 12px; gap: 8px; }
+      .odds-bar-wrap { width: 50px; }
+      .team-name { font-size: .88rem; }
+
+      /* Reveal card */
+      .reveal-card { padding: 28px 22px; border-radius: 18px; }
+      .reveal-card .rc-pick-num { font-size: 4rem; }
+      .reveal-card.pick-one .rc-pick-num { font-size: 5.5rem; }
+      .reveal-card .rc-team { font-size: 2.2rem; }
+      .reveal-card.pick-one .rc-team { font-size: 2.8rem; }
+
+      /* Spotlight — scale to viewport on mobile */
+      .spotlight {
+        background: radial-gradient(ellipse 90vw 55vw at 50% 40%, transparent 30%, rgba(0,0,0,.88) 100%);
+      }
+    }
   </style>
 </head>
 <body>
