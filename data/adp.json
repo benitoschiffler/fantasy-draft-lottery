@@ -2,25 +2,30 @@
   "year": 2026,
   "scoring_format": "0.5 PPR",
   "team_count": 10,
-  "pulled_at": "2026-09-01T17:04:25.424798+00:00",
+  "pulled_at": "2026-09-08T16:56:37.488351+00:00",
   "source": {
     "name": "Fantasy Football Calculator",
     "url": "https://fantasyfootballcalculator.com/adp/half-ppr",
     "api_url": "https://fantasyfootballcalculator.com/api/v1/adp/half-ppr",
-    "drafts": 3162,
-    "sample_start": "2026-08-27",
-    "sample_end": "2026-09-01"
+    "drafts": 1837,
+    "sample_start": "2026-09-03",
+    "sample_end": "2026-09-08"
   },
   "coverage": {
     "keeper_candidates": 166,
-    "matched_candidates": 148,
+    "matched_candidates": 139,
     "unmatched_candidates": [
+      "Andy Borregales",
+      "Bears D/ST",
       "Brandon Aiyuk",
       "Buccaneers D/ST",
       "Chimere Dike",
+      "Dalton Schultz",
       "Darnell Mooney",
       "Devin Neal",
       "Emanuel Wilson",
+      "Giants D/ST",
+      "Isiah Pacheco",
       "Jaylen Wright",
       "Jets D/ST",
       "Joe Mixon",
@@ -30,9 +35,13 @@
       "Matt Prater",
       "Michael Carter",
       "Michael Mayer",
+      "Oronde Gadsden",
+      "Saints D/ST",
       "Taysom Hill",
       "Theo Johnson",
-      "Trey Benson"
+      "Travis Hunter",
+      "Trey Benson",
+      "Tyrone Tracy Jr."
     ]
   },
   "players": [
@@ -42,7 +51,7 @@
       "position": "RB",
       "pro_team": "DET",
       "adp": 1.5,
-      "times_drafted": 546,
+      "times_drafted": 185,
       "source_player_id": 5672
     },
     {
@@ -50,8 +59,8 @@
       "name": "Bijan Robinson",
       "position": "RB",
       "pro_team": "ATL",
-      "adp": 2.3,
-      "times_drafted": 267,
+      "adp": 2.2,
+      "times_drafted": 81,
       "source_player_id": 5670
     },
     {
@@ -60,7 +69,7 @@
       "position": "WR",
       "pro_team": "LAR",
       "adp": 2.8,
-      "times_drafted": 58,
+      "times_drafted": 14,
       "source_player_id": 5714
     },
     {
@@ -68,17 +77,26 @@
       "name": "Ja'Marr Chase",
       "position": "WR",
       "pro_team": "CIN",
-      "adp": 4.0,
-      "times_drafted": 494,
+      "adp": 3.9,
+      "times_drafted": 196,
       "source_player_id": 5177
+    },
+    {
+      "player_id": 3117251,
+      "name": "Christian McCaffrey",
+      "position": "RB",
+      "pro_team": "SF",
+      "adp": 5.5,
+      "times_drafted": 96,
+      "source_player_id": 2434
     },
     {
       "player_id": 4430878,
       "name": "Jaxon Smith-Njigba",
       "position": "WR",
       "pro_team": "SEA",
-      "adp": 5.2,
-      "times_drafted": 231,
+      "adp": 5.9,
+      "times_drafted": 76,
       "source_player_id": 5671
     },
     {
@@ -86,26 +104,17 @@
       "name": "Jonathan Taylor",
       "position": "RB",
       "pro_team": "IND",
-      "adp": 5.8,
-      "times_drafted": 464,
+      "adp": 5.9,
+      "times_drafted": 193,
       "source_player_id": 4864
-    },
-    {
-      "player_id": 3117251,
-      "name": "Christian McCaffrey",
-      "position": "RB",
-      "pro_team": "SF",
-      "adp": 7.0,
-      "times_drafted": 398,
-      "source_player_id": 2434
     },
     {
       "player_id": 4374302,
       "name": "Amon-Ra St. Brown",
       "position": "WR",
       "pro_team": "DET",
-      "adp": 7.6,
-      "times_drafted": 331,
+      "adp": 7.9,
+      "times_drafted": 137,
       "source_player_id": 5182
     },
     {
@@ -113,8 +122,8 @@
       "name": "James Cook III",
       "position": "RB",
       "pro_team": "BUF",
-      "adp": 9.1,
-      "times_drafted": 569,
+      "adp": 9.5,
+      "times_drafted": 230,
       "source_player_id": 5652
     },
     {
@@ -122,8 +131,8 @@
       "name": "Derrick Henry",
       "position": "RB",
       "pro_team": "BAL",
-      "adp": 10.1,
-      "times_drafted": 198,
+      "adp": 9.8,
+      "times_drafted": 49,
       "source_player_id": 2350
     },
     {
@@ -131,8 +140,8 @@
       "name": "De'Von Achane",
       "position": "RB",
       "pro_team": "MIA",
-      "adp": 11.4,
-      "times_drafted": 167,
+      "adp": 10.5,
+      "times_drafted": 62,
       "source_player_id": 5683
     },
     {
@@ -140,26 +149,17 @@
       "name": "CeeDee Lamb",
       "position": "WR",
       "pro_team": "DAL",
-      "adp": 12.3,
-      "times_drafted": 333,
+      "adp": 12.1,
+      "times_drafted": 84,
       "source_player_id": 4869
-    },
-    {
-      "player_id": 4426502,
-      "name": "Drake London",
-      "position": "WR",
-      "pro_team": "ATL",
-      "adp": 13.4,
-      "times_drafted": 68,
-      "source_player_id": 5574
     },
     {
       "player_id": 4262921,
       "name": "Justin Jefferson",
       "position": "WR",
       "pro_team": "MIN",
-      "adp": 13.6,
-      "times_drafted": 325,
+      "adp": 13.1,
+      "times_drafted": 127,
       "source_player_id": 4876
     },
     {
@@ -167,44 +167,53 @@
       "name": "Chase Brown",
       "position": "RB",
       "pro_team": "CIN",
-      "adp": 14.4,
-      "times_drafted": 614,
+      "adp": 13.6,
+      "times_drafted": 212,
       "source_player_id": 5706
+    },
+    {
+      "player_id": 4426502,
+      "name": "Drake London",
+      "position": "WR",
+      "pro_team": "ATL",
+      "adp": 13.9,
+      "times_drafted": 18,
+      "source_player_id": 5574
     },
     {
       "player_id": 3929630,
       "name": "Saquon Barkley",
       "position": "RB",
       "pro_team": "PHI",
-      "adp": 17.1,
-      "times_drafted": 782,
+      "adp": 16.7,
+      "times_drafted": 297,
       "source_player_id": 2860
-    },
-    {
-      "player_id": 4428331,
-      "name": "Rashee Rice",
-      "position": "WR",
-      "pro_team": "KC",
-      "adp": 17.4,
-      "times_drafted": 55,
-      "source_player_id": 5696
     },
     {
       "player_id": 4047646,
       "name": "A.J. Brown",
       "position": "WR",
       "pro_team": "PHI",
-      "adp": 17.5,
-      "times_drafted": 355,
+      "adp": 17.0,
+      "times_drafted": 80,
       "source_player_id": 3247
+    },
+    {
+      "player_id": 4428331,
+      "name": "Rashee Rice",
+      "position": "WR",
+      "pro_team": "KC",
+      "adp": 18.3,
+      "times_drafted": 12,
+      "source_player_id": 5696
     },
     {
       "player_id": 4426354,
       "name": "George Pickens",
       "position": "WR",
       "pro_team": "DAL",
-      "adp": 18.7,
-      "times_drafted": 119,
+      "adp": 19.9,
+      "times_drafted": 51,
       "source_player_id": 5576
     },
     {
@@ -212,8 +221,8 @@
       "name": "Kenneth Walker III",
       "position": "RB",
       "pro_team": "SEA",
-      "adp": 20.5,
-      "times_drafted": 719,
+      "adp": 20.3,
+      "times_drafted": 312,
       "source_player_id": 5625
     },
     {
@@ -221,8 +230,8 @@
       "name": "Nico Collins",
       "position": "WR",
       "pro_team": "HOU",
-      "adp": 21.5,
-      "times_drafted": 244,
+      "adp": 21.0,
+      "times_drafted": 81,
       "source_player_id": 5207
     },
     {
@@ -230,116 +239,107 @@
       "name": "Chris Olave",
       "position": "WR",
       "pro_team": "NO",
-      "adp": 22.4,
-      "times_drafted": 115,
+      "adp": 22.2,
+      "times_drafted": 42,
       "source_player_id": 5544
-    },
-    {
-      "player_id": 4890973,
-      "name": "Ashton Jeanty",
-      "position": "RB",
-      "pro_team": "LV",
-      "adp": 22.5,
-      "times_drafted": 240,
-      "source_player_id": 6500
     },
     {
       "player_id": 4685382,
       "name": "Omarion Hampton",
       "position": "RB",
       "pro_team": "LAC",
-      "adp": 22.8,
-      "times_drafted": 660,
+      "adp": 22.5,
+      "times_drafted": 286,
       "source_player_id": 6538
+    },
+    {
+      "player_id": 4890973,
+      "name": "Ashton Jeanty",
+      "position": "RB",
+      "pro_team": "LV",
+      "adp": 23.1,
+      "times_drafted": 86,
+      "source_player_id": 6500
     },
     {
       "player_id": 4429615,
       "name": "Zay Flowers",
       "position": "WR",
       "pro_team": "BAL",
-      "adp": 23.8,
-      "times_drafted": 95,
+      "adp": 23.9,
+      "times_drafted": 37,
       "source_player_id": 5675
-    },
-    {
-      "player_id": 4430737,
-      "name": "Kyren Williams",
-      "position": "RB",
-      "pro_team": "LAR",
-      "adp": 27.4,
-      "times_drafted": 305,
-      "source_player_id": 5623
-    },
-    {
-      "player_id": 4047365,
-      "name": "Josh Jacobs",
-      "position": "RB",
-      "pro_team": "GB",
-      "adp": 28.6,
-      "times_drafted": 81,
-      "source_player_id": 3255
-    },
-    {
-      "player_id": 4685472,
-      "name": "Tetairoa McMillan",
-      "position": "WR",
-      "pro_team": "CAR",
-      "adp": 30.5,
-      "times_drafted": 139,
-      "source_player_id": 6561
-    },
-    {
-      "player_id": 4241478,
-      "name": "DeVonta Smith",
-      "position": "WR",
-      "pro_team": "PHI",
-      "adp": 30.8,
-      "times_drafted": 437,
-      "source_player_id": 4883
     },
     {
       "player_id": 4569618,
       "name": "Garrett Wilson",
       "position": "WR",
       "pro_team": "NYJ",
-      "adp": 31.3,
-      "times_drafted": 198,
+      "adp": 28.3,
+      "times_drafted": 56,
       "source_player_id": 5548
-    },
-    {
-      "player_id": 4427366,
-      "name": "Breece Hall",
-      "position": "RB",
-      "pro_team": "NYJ",
-      "adp": 33.1,
-      "times_drafted": 199,
-      "source_player_id": 5503
-    },
-    {
-      "player_id": 3918298,
-      "name": "Josh Allen",
-      "position": "QB",
-      "pro_team": "BUF",
-      "adp": 33.2,
-      "times_drafted": 375,
-      "source_player_id": 2885
     },
     {
       "player_id": 4361579,
       "name": "Javonte Williams",
       "position": "RB",
       "pro_team": "DAL",
-      "adp": 33.4,
-      "times_drafted": 517,
+      "adp": 28.5,
+      "times_drafted": 157,
       "source_player_id": 5185
+    },
+    {
+      "player_id": 4430737,
+      "name": "Kyren Williams",
+      "position": "RB",
+      "pro_team": "LAR",
+      "adp": 29.7,
+      "times_drafted": 104,
+      "source_player_id": 5623
+    },
+    {
+      "player_id": 3918298,
+      "name": "Josh Allen",
+      "position": "QB",
+      "pro_team": "BUF",
+      "adp": 29.7,
+      "times_drafted": 112,
+      "source_player_id": 2885
+    },
+    {
+      "player_id": 4241478,
+      "name": "DeVonta Smith",
+      "position": "WR",
+      "pro_team": "PHI",
+      "adp": 30.9,
+      "times_drafted": 141,
+      "source_player_id": 4883
+    },
+    {
+      "player_id": 4427366,
+      "name": "Breece Hall",
+      "position": "RB",
+      "pro_team": "NYJ",
+      "adp": 31.4,
+      "times_drafted": 73,
+      "source_player_id": 5503
+    },
+    {
+      "player_id": 4685472,
+      "name": "Tetairoa McMillan",
+      "position": "WR",
+      "pro_team": "CAR",
+      "adp": 31.8,
+      "times_drafted": 70,
+      "source_player_id": 6561
     },
     {
       "player_id": 4567750,
       "name": "Emeka Egbuka",
       "position": "WR",
       "pro_team": "TB",
-      "adp": 34.5,
-      "times_drafted": 367,
+      "adp": 34.2,
+      "times_drafted": 102,
       "source_player_id": 6576
     },
     {
@@ -347,8 +347,8 @@
       "name": "Tee Higgins",
       "position": "WR",
       "pro_team": "CIN",
-      "adp": 35.2,
-      "times_drafted": 190,
+      "adp": 35.1,
+      "times_drafted": 70,
       "source_player_id": 4870
     },
     {
@@ -356,35 +356,17 @@
       "name": "Travis Etienne Jr.",
       "position": "RB",
       "pro_team": "JAX",
-      "adp": 37.5,
-      "times_drafted": 247,
+      "adp": 36.7,
+      "times_drafted": 97,
       "source_player_id": 4863
-    },
-    {
-      "player_id": 16800,
-      "name": "Davante Adams",
-      "position": "WR",
-      "pro_team": "LAR",
-      "adp": 37.5,
-      "times_drafted": 222,
-      "source_player_id": 2125
-    },
-    {
-      "player_id": 4361307,
-      "name": "Trey McBride",
-      "position": "TE",
-      "pro_team": "ARI",
-      "adp": 37.9,
-      "times_drafted": 300,
-      "source_player_id": 5656
     },
     {
       "player_id": 4426388,
       "name": "Jameson Williams",
       "position": "WR",
       "pro_team": "DET",
-      "adp": 39.4,
-      "times_drafted": 132,
+      "adp": 37.4,
+      "times_drafted": 49,
       "source_player_id": 5643
     },
     {
@@ -392,71 +374,89 @@
       "name": "Cam Skattebo",
       "position": "RB",
       "pro_team": "NYG",
-      "adp": 39.6,
-      "times_drafted": 134,
+      "adp": 37.7,
+      "times_drafted": 45,
       "source_player_id": 6509
     },
     {
-      "player_id": 4612826,
-      "name": "Ladd McConkey",
+      "player_id": 16800,
+      "name": "Davante Adams",
       "position": "WR",
-      "pro_team": "LAC",
-      "adp": 41.1,
-      "times_drafted": 666,
-      "source_player_id": 6281
+      "pro_team": "LAR",
+      "adp": 37.8,
+      "times_drafted": 81,
+      "source_player_id": 2125
     },
     {
       "player_id": 4259545,
       "name": "D'Andre Swift",
       "position": "RB",
       "pro_team": "CHI",
-      "adp": 42.9,
-      "times_drafted": 355,
+      "adp": 39.9,
+      "times_drafted": 117,
       "source_player_id": 4862
     },
     {
-      "player_id": 3121422,
-      "name": "Terry McLaurin",
+      "player_id": 4612826,
+      "name": "Ladd McConkey",
       "position": "WR",
-      "pro_team": "WSH",
-      "adp": 46.1,
-      "times_drafted": 184,
-      "source_player_id": 3449
+      "pro_team": "LAC",
+      "adp": 40.1,
+      "times_drafted": 260,
+      "source_player_id": 6281
     },
     {
-      "player_id": 4372016,
-      "name": "Jaylen Waddle",
-      "position": "WR",
-      "pro_team": "MIA",
-      "adp": 47.2,
-      "times_drafted": 587,
-      "source_player_id": 5178
-    },
-    {
-      "player_id": 3915416,
-      "name": "DJ Moore",
-      "position": "WR",
-      "pro_team": "CHI",
-      "adp": 47.3,
-      "times_drafted": 538,
-      "source_player_id": 2876
+      "player_id": 4361307,
+      "name": "Trey McBride",
+      "position": "TE",
+      "pro_team": "ARI",
+      "adp": 42.8,
+      "times_drafted": 129,
+      "source_player_id": 5656
     },
     {
       "player_id": 4596448,
       "name": "Bucky Irving",
       "position": "RB",
       "pro_team": "TB",
-      "adp": 48.1,
-      "times_drafted": 162,
+      "adp": 44.7,
+      "times_drafted": 60,
       "source_player_id": 6190
+    },
+    {
+      "player_id": 4372016,
+      "name": "Jaylen Waddle",
+      "position": "WR",
+      "pro_team": "MIA",
+      "adp": 45.1,
+      "times_drafted": 215,
+      "source_player_id": 5178
+    },
+    {
+      "player_id": 3121422,
+      "name": "Terry McLaurin",
+      "position": "WR",
+      "pro_team": "WSH",
+      "adp": 45.1,
+      "times_drafted": 52,
+      "source_player_id": 3449
+    },
+    {
+      "player_id": 3915416,
+      "name": "DJ Moore",
+      "position": "WR",
+      "pro_team": "CHI",
+      "adp": 45.8,
+      "times_drafted": 202,
+      "source_player_id": 2876
     },
     {
       "player_id": 4431299,
       "name": "Rome Odunze",
       "position": "WR",
       "pro_team": "CHI",
-      "adp": 49.9,
-      "times_drafted": 210,
+      "adp": 48.1,
+      "times_drafted": 74,
       "source_player_id": 6194
     },
     {
@@ -464,44 +464,44 @@
       "name": "Quinshon Judkins",
       "position": "RB",
       "pro_team": "CLE",
-      "adp": 50.4,
-      "times_drafted": 213,
+      "adp": 50.0,
+      "times_drafted": 75,
       "source_player_id": 6531
     },
     {
-      "player_id": 4431452,
-      "name": "Drake Maye",
-      "position": "QB",
-      "pro_team": "NE",
-      "adp": 51.8,
-      "times_drafted": 177,
-      "source_player_id": 6187
+      "player_id": 4685278,
+      "name": "Luther Burden III",
+      "position": "WR",
+      "pro_team": "CHI",
+      "adp": 51.3,
+      "times_drafted": 77,
+      "source_player_id": 6559
     },
     {
       "player_id": 4882093,
       "name": "Bhayshul Tuten",
       "position": "RB",
       "pro_team": "JAX",
-      "adp": 53.3,
-      "times_drafted": 303,
+      "adp": 52.0,
+      "times_drafted": 107,
       "source_player_id": 6513
     },
     {
-      "player_id": 16737,
-      "name": "Mike Evans",
-      "position": "WR",
-      "pro_team": "TB",
-      "adp": 53.7,
-      "times_drafted": 180,
-      "source_player_id": 2111
+      "player_id": 4431452,
+      "name": "Drake Maye",
+      "position": "QB",
+      "pro_team": "NE",
+      "adp": 52.1,
+      "times_drafted": 38,
+      "source_player_id": 6187
     },
     {
       "player_id": 4248528,
       "name": "Christian Watson",
       "position": "WR",
       "pro_team": "GB",
-      "adp": 55.6,
-      "times_drafted": 344,
+      "adp": 53.0,
+      "times_drafted": 128,
       "source_player_id": 5360
     },
     {
@@ -509,27 +509,27 @@
       "name": "Joe Burrow",
       "position": "QB",
       "pro_team": "CIN",
-      "adp": 56.1,
-      "times_drafted": 142,
+      "adp": 54.6,
+      "times_drafted": 44,
       "source_player_id": 4882
+    },
+    {
+      "player_id": 16737,
+      "name": "Mike Evans",
+      "position": "WR",
+      "pro_team": "TB",
+      "adp": 55.5,
+      "times_drafted": 101,
+      "source_player_id": 2111
     },
     {
       "player_id": 4035538,
       "name": "David Montgomery",
       "position": "RB",
       "pro_team": "DET",
-      "adp": 56.5,
-      "times_drafted": 384,
+      "adp": 55.5,
+      "times_drafted": 103,
       "source_player_id": 3238
-    },
-    {
-      "player_id": 4685278,
-      "name": "Luther Burden III",
-      "position": "WR",
-      "pro_team": "CHI",
-      "adp": 56.9,
-      "times_drafted": 372,
-      "source_player_id": 6559
     },
     {
       "player_id": 4723086,
@@ -537,7 +537,7 @@
       "position": "TE",
       "pro_team": "CHI",
       "adp": 59.8,
-      "times_drafted": 523,
+      "times_drafted": 164,
       "source_player_id": 6501
     },
     {
@@ -545,242 +545,233 @@
       "name": "Courtland Sutton",
       "position": "WR",
       "pro_team": "DEN",
-      "adp": 61.3,
-      "times_drafted": 169,
+      "adp": 61.0,
+      "times_drafted": 66,
       "source_player_id": 2862
-    },
-    {
-      "player_id": 4569173,
-      "name": "Rhamondre Stevenson",
-      "position": "RB",
-      "pro_team": "NE",
-      "adp": 62.3,
-      "times_drafted": 115,
-      "source_player_id": 5210
-    },
-    {
-      "player_id": 4432710,
-      "name": "TreVeyon Henderson",
-      "position": "RB",
-      "pro_team": "NE",
-      "adp": 62.8,
-      "times_drafted": 147,
-      "source_player_id": 6490
-    },
-    {
-      "player_id": 4569987,
-      "name": "Jaylen Warren",
-      "position": "RB",
-      "pro_team": "PIT",
-      "adp": 63.9,
-      "times_drafted": 84,
-      "source_player_id": 5443
-    },
-    {
-      "player_id": 4047650,
-      "name": "DK Metcalf",
-      "position": "WR",
-      "pro_team": "PIT",
-      "adp": 64.1,
-      "times_drafted": 250,
-      "source_player_id": 3239
     },
     {
       "player_id": 2577417,
       "name": "Dak Prescott",
       "position": "QB",
       "pro_team": "DAL",
-      "adp": 65.4,
-      "times_drafted": 131,
+      "adp": 63.4,
+      "times_drafted": 64,
       "source_player_id": 2377
     },
     {
-      "player_id": 3916148,
-      "name": "Tony Pollard",
+      "player_id": 4569173,
+      "name": "Rhamondre Stevenson",
       "position": "RB",
-      "pro_team": "TEN",
-      "adp": 66.4,
-      "times_drafted": 90,
-      "source_player_id": 3435
+      "pro_team": "NE",
+      "adp": 63.6,
+      "times_drafted": 51,
+      "source_player_id": 5210
+    },
+    {
+      "player_id": 4047650,
+      "name": "DK Metcalf",
+      "position": "WR",
+      "pro_team": "PIT",
+      "adp": 63.6,
+      "times_drafted": 95,
+      "source_player_id": 3239
+    },
+    {
+      "player_id": 4432710,
+      "name": "TreVeyon Henderson",
+      "position": "RB",
+      "pro_team": "NE",
+      "adp": 65.2,
+      "times_drafted": 37,
+      "source_player_id": 6490
     },
     {
       "player_id": 4432708,
       "name": "Marvin Harrison Jr.",
       "position": "WR",
       "pro_team": "ARI",
-      "adp": 66.4,
-      "times_drafted": 319,
+      "adp": 66.0,
+      "times_drafted": 116,
       "source_player_id": 6193
     },
     {
-      "player_id": 4431459,
-      "name": "Tyler Warren",
-      "position": "TE",
-      "pro_team": "IND",
-      "adp": 71.7,
-      "times_drafted": 309,
-      "source_player_id": 6504
+      "player_id": 4569987,
+      "name": "Jaylen Warren",
+      "position": "RB",
+      "pro_team": "PIT",
+      "adp": 68.4,
+      "times_drafted": 32,
+      "source_player_id": 5443
     },
     {
       "player_id": 4432773,
       "name": "Brian Thomas Jr.",
       "position": "WR",
       "pro_team": "JAX",
-      "adp": 72.3,
-      "times_drafted": 229,
+      "adp": 68.8,
+      "times_drafted": 86,
       "source_player_id": 6175
+    },
+    {
+      "player_id": 3916148,
+      "name": "Tony Pollard",
+      "position": "RB",
+      "pro_team": "TEN",
+      "adp": 69.6,
+      "times_drafted": 56,
+      "source_player_id": 3435
+    },
+    {
+      "player_id": 4431459,
+      "name": "Tyler Warren",
+      "position": "TE",
+      "pro_team": "IND",
+      "adp": 70.2,
+      "times_drafted": 136,
+      "source_player_id": 6504
     },
     {
       "player_id": 12483,
       "name": "Matthew Stafford",
       "position": "QB",
       "pro_team": "LAR",
-      "adp": 73.0,
-      "times_drafted": 134,
+      "adp": 72.7,
+      "times_drafted": 46,
       "source_player_id": 1664
-    },
-    {
-      "player_id": 4038815,
-      "name": "Rico Dowdle",
-      "position": "RB",
-      "pro_team": "CAR",
-      "adp": 73.5,
-      "times_drafted": 98,
-      "source_player_id": 5095
     },
     {
       "player_id": 4360761,
       "name": "Michael Wilson",
       "position": "WR",
       "pro_team": "ARI",
-      "adp": 74.6,
-      "times_drafted": 197,
+      "adp": 73.3,
+      "times_drafted": 153,
       "source_player_id": 5721
-    },
-    {
-      "player_id": 3116165,
-      "name": "Chris Godwin Jr.",
-      "position": "WR",
-      "pro_team": "TB",
-      "adp": 77.3,
-      "times_drafted": 429,
-      "source_player_id": 2465
-    },
-    {
-      "player_id": 4241985,
-      "name": "J.K. Dobbins",
-      "position": "RB",
-      "pro_team": "DEN",
-      "adp": 79.9,
-      "times_drafted": 147,
-      "source_player_id": 4888
     },
     {
       "player_id": 5083076,
       "name": "Harold Fannin Jr.",
       "position": "TE",
       "pro_team": "CLE",
-      "adp": 81.0,
-      "times_drafted": 43,
+      "adp": 76.1,
+      "times_drafted": 11,
       "source_player_id": 6502
-    },
-    {
-      "player_id": -16026,
-      "name": "Seahawks D/ST",
-      "position": "D/ST",
-      "pro_team": "SEA",
-      "adp": 81.6,
-      "times_drafted": 74,
-      "source_player_id": 1327
-    },
-    {
-      "player_id": 4035687,
-      "name": "Michael Pittman Jr.",
-      "position": "WR",
-      "pro_team": "IND",
-      "adp": 81.7,
-      "times_drafted": 300,
-      "source_player_id": 4880
     },
     {
       "player_id": 4040715,
       "name": "Jalen Hurts",
       "position": "QB",
       "pro_team": "PHI",
-      "adp": 81.9,
-      "times_drafted": 250,
+      "adp": 77.2,
+      "times_drafted": 89,
       "source_player_id": 5025
     },
     {
-      "player_id": 4361741,
-      "name": "Brock Purdy",
-      "position": "QB",
-      "pro_team": "SF",
-      "adp": 83.4,
+      "player_id": 4241985,
+      "name": "J.K. Dobbins",
+      "position": "RB",
+      "pro_team": "DEN",
+      "adp": 78.4,
       "times_drafted": 92,
-      "source_player_id": 5648
+      "source_player_id": 4888
     },
     {
-      "player_id": 3916433,
-      "name": "Jakobi Meyers",
+      "player_id": 3116165,
+      "name": "Chris Godwin Jr.",
       "position": "WR",
-      "pro_team": "JAX",
-      "adp": 87.4,
-      "times_drafted": 108,
-      "source_player_id": 3496
+      "pro_team": "TB",
+      "adp": 78.4,
+      "times_drafted": 186,
+      "source_player_id": 2465
     },
     {
-      "player_id": 4429205,
-      "name": "Jordan Addison",
+      "player_id": 4038815,
+      "name": "Rico Dowdle",
+      "position": "RB",
+      "pro_team": "CAR",
+      "adp": 79.0,
+      "times_drafted": 64,
+      "source_player_id": 5095
+    },
+    {
+      "player_id": 4035687,
+      "name": "Michael Pittman Jr.",
       "position": "WR",
-      "pro_team": "MIN",
-      "adp": 87.9,
-      "times_drafted": 182,
-      "source_player_id": 5673
+      "pro_team": "IND",
+      "adp": 81.1,
+      "times_drafted": 67,
+      "source_player_id": 4880
+    },
+    {
+      "player_id": 4047365,
+      "name": "Josh Jacobs",
+      "position": "RB",
+      "pro_team": "GB",
+      "adp": 84.8,
+      "times_drafted": 65,
+      "source_player_id": 3255
+    },
+    {
+      "player_id": -16026,
+      "name": "Seahawks D/ST",
+      "position": "D/ST",
+      "pro_team": "SEA",
+      "adp": 85.6,
+      "times_drafted": 16,
+      "source_player_id": 1327
     },
     {
       "player_id": 4241416,
       "name": "Chuba Hubbard",
       "position": "RB",
       "pro_team": "CAR",
-      "adp": 88.0,
-      "times_drafted": 91,
+      "adp": 86.3,
+      "times_drafted": 34,
       "source_player_id": 4873
-    },
-    {
-      "player_id": 4431611,
-      "name": "Caleb Williams",
-      "position": "QB",
-      "pro_team": "CHI",
-      "adp": 91.0,
-      "times_drafted": 343,
-      "source_player_id": 6173
     },
     {
       "player_id": 4360310,
       "name": "Trevor Lawrence",
       "position": "QB",
       "pro_team": "JAX",
-      "adp": 91.6,
-      "times_drafted": 322,
+      "adp": 86.4,
+      "times_drafted": 116,
       "source_player_id": 5186
     },
     {
-      "player_id": 4360248,
-      "name": "Kyle Pitts Sr.",
-      "position": "TE",
-      "pro_team": "ATL",
-      "adp": 92.4,
-      "times_drafted": 89,
-      "source_player_id": 5181
+      "player_id": 4431611,
+      "name": "Caleb Williams",
+      "position": "QB",
+      "pro_team": "CHI",
+      "adp": 87.5,
+      "times_drafted": 146,
+      "source_player_id": 6173
+    },
+    {
+      "player_id": 4361741,
+      "name": "Brock Purdy",
+      "position": "QB",
+      "pro_team": "SF",
+      "adp": 88.5,
+      "times_drafted": 24,
+      "source_player_id": 5648
+    },
+    {
+      "player_id": 4429205,
+      "name": "Jordan Addison",
+      "position": "WR",
+      "pro_team": "MIN",
+      "adp": 88.9,
+      "times_drafted": 51,
+      "source_player_id": 5673
     },
     {
       "player_id": 3040151,
       "name": "George Kittle",
       "position": "TE",
       "pro_team": "SF",
-      "adp": 93.2,
-      "times_drafted": 148,
+      "adp": 90.4,
+      "times_drafted": 47,
       "source_player_id": 2499
     },
     {
@@ -788,125 +779,116 @@
       "name": "Broncos D/ST",
       "position": "D/ST",
       "pro_team": "DEN",
-      "adp": 94.0,
-      "times_drafted": 125,
+      "adp": 92.5,
+      "times_drafted": 34,
       "source_player_id": 1309
-    },
-    {
-      "player_id": 4688813,
-      "name": "Josh Downs",
-      "position": "WR",
-      "pro_team": "IND",
-      "adp": 94.1,
-      "times_drafted": 261,
-      "source_player_id": 5680
     },
     {
       "player_id": 4569587,
       "name": "Wan'Dale Robinson",
       "position": "WR",
       "pro_team": "NYG",
-      "adp": 95.1,
-      "times_drafted": 194,
+      "adp": 92.9,
+      "times_drafted": 67,
       "source_player_id": 5588
     },
     {
-      "player_id": 2976212,
-      "name": "Stefon Diggs",
+      "player_id": 3916433,
+      "name": "Jakobi Meyers",
       "position": "WR",
-      "pro_team": "NE",
-      "adp": 95.4,
-      "times_drafted": 256,
-      "source_player_id": 2316
+      "pro_team": "JAX",
+      "adp": 93.5,
+      "times_drafted": 29,
+      "source_player_id": 3496
     },
     {
-      "player_id": -16034,
-      "name": "Texans D/ST",
-      "position": "D/ST",
-      "pro_team": "HOU",
-      "adp": 97.6,
-      "times_drafted": 216,
-      "source_player_id": 1312
+      "player_id": 4360248,
+      "name": "Kyle Pitts Sr.",
+      "position": "TE",
+      "pro_team": "ATL",
+      "adp": 94.5,
+      "times_drafted": 40,
+      "source_player_id": 5181
     },
     {
       "player_id": 4683062,
       "name": "Xavier Worthy",
       "position": "WR",
       "pro_team": "KC",
-      "adp": 99.9,
-      "times_drafted": 122,
+      "adp": 95.1,
+      "times_drafted": 62,
       "source_player_id": 6172
-    },
-    {
-      "player_id": 3046779,
-      "name": "Jared Goff",
-      "position": "QB",
-      "pro_team": "DET",
-      "adp": 100.8,
-      "times_drafted": 128,
-      "source_player_id": 2351
     },
     {
       "player_id": 4701936,
       "name": "Matthew Golden",
       "position": "WR",
       "pro_team": "GB",
-      "adp": 101.1,
-      "times_drafted": 217,
+      "adp": 96.0,
+      "times_drafted": 68,
       "source_player_id": 6523
-    },
-    {
-      "player_id": 3121023,
-      "name": "Dallas Goedert",
-      "position": "TE",
-      "pro_team": "PHI",
-      "adp": 102.8,
-      "times_drafted": 103,
-      "source_player_id": 2896
     },
     {
       "player_id": 4361432,
       "name": "Romeo Doubs",
       "position": "WR",
       "pro_team": "GB",
-      "adp": 102.9,
-      "times_drafted": 119,
+      "adp": 96.4,
+      "times_drafted": 47,
       "source_player_id": 5586
     },
     {
-      "player_id": 4608686,
-      "name": "Kyle Monangai",
-      "position": "RB",
-      "pro_team": "CHI",
-      "adp": 104.5,
-      "times_drafted": 140,
-      "source_player_id": 6534
+      "player_id": 3046779,
+      "name": "Jared Goff",
+      "position": "QB",
+      "pro_team": "DET",
+      "adp": 97.6,
+      "times_drafted": 62,
+      "source_player_id": 2351
     },
     {
-      "player_id": 3126486,
-      "name": "Deebo Samuel",
+      "player_id": 4688813,
+      "name": "Josh Downs",
       "position": "WR",
-      "pro_team": "WSH",
-      "adp": 105.4,
-      "times_drafted": 103,
-      "source_player_id": 3246
+      "pro_team": "IND",
+      "adp": 97.9,
+      "times_drafted": 94,
+      "source_player_id": 5680
     },
     {
-      "player_id": 4568490,
-      "name": "RJ Harvey",
+      "player_id": -16034,
+      "name": "Texans D/ST",
+      "position": "D/ST",
+      "pro_team": "HOU",
+      "adp": 98.7,
+      "times_drafted": 55,
+      "source_player_id": 1312
+    },
+    {
+      "player_id": 2976212,
+      "name": "Stefon Diggs",
+      "position": "WR",
+      "pro_team": "NE",
+      "adp": 100.9,
+      "times_drafted": 94,
+      "source_player_id": 2316
+    },
+    {
+      "player_id": 3042519,
+      "name": "Aaron Jones Sr.",
       "position": "RB",
-      "pro_team": "DEN",
-      "adp": 105.9,
-      "times_drafted": 168,
-      "source_player_id": 6530
+      "pro_team": "MIN",
+      "adp": 101.5,
+      "times_drafted": 41,
+      "source_player_id": 2507
     },
     {
       "player_id": 4038941,
       "name": "Justin Herbert",
       "position": "QB",
       "pro_team": "LAC",
-      "adp": 107.0,
-      "times_drafted": 441,
+      "adp": 103.0,
+      "times_drafted": 130,
       "source_player_id": 4887
     },
     {
@@ -914,459 +896,405 @@
       "name": "Rams D/ST",
       "position": "D/ST",
       "pro_team": "LAR",
-      "adp": 110.2,
-      "times_drafted": 230,
+      "adp": 103.5,
+      "times_drafted": 124,
       "source_player_id": 1328
     },
     {
-      "player_id": 3042519,
-      "name": "Aaron Jones Sr.",
+      "player_id": 4608686,
+      "name": "Kyle Monangai",
       "position": "RB",
-      "pro_team": "MIN",
-      "adp": 111.1,
-      "times_drafted": 111,
-      "source_player_id": 2507
+      "pro_team": "CHI",
+      "adp": 103.5,
+      "times_drafted": 46,
+      "source_player_id": 6534
+    },
+    {
+      "player_id": 4568490,
+      "name": "RJ Harvey",
+      "position": "RB",
+      "pro_team": "DEN",
+      "adp": 103.9,
+      "times_drafted": 54,
+      "source_player_id": 6530
     },
     {
       "player_id": 4426338,
       "name": "Bo Nix",
       "position": "QB",
       "pro_team": "DEN",
-      "adp": 113.4,
-      "times_drafted": 211,
+      "adp": 110.4,
+      "times_drafted": 61,
       "source_player_id": 6253
     },
     {
-      "player_id": 4689114,
-      "name": "Jaxson Dart",
-      "position": "QB",
-      "pro_team": "NYG",
-      "adp": 118.2,
-      "times_drafted": 155,
-      "source_player_id": 6568
+      "player_id": 3126486,
+      "name": "Deebo Samuel",
+      "position": "WR",
+      "pro_team": "WSH",
+      "adp": 111.2,
+      "times_drafted": 58,
+      "source_player_id": 3246
     },
     {
-      "player_id": 4032473,
-      "name": "Rashid Shaheed",
-      "position": "WR",
-      "pro_team": "SEA",
-      "adp": 119.0,
-      "times_drafted": 126,
-      "source_player_id": 5896
+      "player_id": 3121023,
+      "name": "Dallas Goedert",
+      "position": "TE",
+      "pro_team": "PHI",
+      "adp": 113.8,
+      "times_drafted": 38,
+      "source_player_id": 2896
     },
     {
       "player_id": 4429096,
       "name": "Blake Corum",
       "position": "RB",
       "pro_team": "LAR",
-      "adp": 120.5,
-      "times_drafted": 436,
+      "adp": 115.3,
+      "times_drafted": 169,
       "source_player_id": 5965
     },
     {
-      "player_id": 4697815,
-      "name": "Rachaad White",
-      "position": "RB",
-      "pro_team": "TB",
-      "adp": 120.8,
-      "times_drafted": 92,
-      "source_player_id": 5626
-    },
-    {
-      "player_id": 15847,
-      "name": "Travis Kelce",
-      "position": "TE",
-      "pro_team": "KC",
-      "adp": 122.0,
-      "times_drafted": 111,
-      "source_player_id": 1989
-    },
-    {
-      "player_id": 2473037,
-      "name": "Jason Myers",
-      "position": "K",
+      "player_id": 4032473,
+      "name": "Rashid Shaheed",
+      "position": "WR",
       "pro_team": "SEA",
-      "adp": 125.8,
-      "times_drafted": 38,
-      "source_player_id": 2424
+      "adp": 117.7,
+      "times_drafted": 45,
+      "source_player_id": 5896
     },
     {
       "player_id": -16017,
       "name": "Patriots D/ST",
       "position": "D/ST",
       "pro_team": "NE",
-      "adp": 130.1,
-      "times_drafted": 101,
+      "adp": 121.8,
+      "times_drafted": 40,
       "source_player_id": 1318
     },
     {
-      "player_id": -16008,
-      "name": "Lions D/ST",
-      "position": "D/ST",
-      "pro_team": "DET",
-      "adp": 131.9,
-      "times_drafted": 29,
-      "source_player_id": 1310
+      "player_id": 2473037,
+      "name": "Jason Myers",
+      "position": "K",
+      "pro_team": "SEA",
+      "adp": 125.1,
+      "times_drafted": 27,
+      "source_player_id": 2424
     },
     {
-      "player_id": 4428718,
-      "name": "Tre Tucker",
-      "position": "WR",
-      "pro_team": "LV",
-      "adp": 132.2,
-      "times_drafted": 81,
-      "source_player_id": 5977
+      "player_id": 4689114,
+      "name": "Jaxson Dart",
+      "position": "QB",
+      "pro_team": "NYG",
+      "adp": 125.9,
+      "times_drafted": 75,
+      "source_player_id": 6568
+    },
+    {
+      "player_id": 4697815,
+      "name": "Rachaad White",
+      "position": "RB",
+      "pro_team": "TB",
+      "adp": 128.0,
+      "times_drafted": 30,
+      "source_player_id": 5626
     },
     {
       "player_id": 3953687,
       "name": "Brandon Aubrey",
       "position": "K",
       "pro_team": "DAL",
-      "adp": 132.5,
-      "times_drafted": 556,
+      "adp": 129.0,
+      "times_drafted": 218,
       "source_player_id": 6162
     },
     {
-      "player_id": 4426385,
-      "name": "Zach Charbonnet",
-      "position": "RB",
-      "pro_team": "SEA",
-      "adp": 133.4,
-      "times_drafted": 192,
-      "source_player_id": 5677
+      "player_id": 15847,
+      "name": "Travis Kelce",
+      "position": "TE",
+      "pro_team": "KC",
+      "adp": 129.6,
+      "times_drafted": 55,
+      "source_player_id": 1989
     },
     {
-      "player_id": 3052587,
-      "name": "Baker Mayfield",
-      "position": "QB",
-      "pro_team": "TB",
-      "adp": 135.7,
-      "times_drafted": 122,
-      "source_player_id": 2886
+      "player_id": 4428718,
+      "name": "Tre Tucker",
+      "position": "WR",
+      "pro_team": "LV",
+      "adp": 131.0,
+      "times_drafted": 33,
+      "source_player_id": 5977
     },
     {
       "player_id": 4361050,
       "name": "Isaiah Likely",
       "position": "TE",
       "pro_team": "BAL",
-      "adp": 135.8,
-      "times_drafted": 316,
+      "adp": 132.8,
+      "times_drafted": 166,
       "source_player_id": 5661
     },
     {
-      "player_id": 4428557,
-      "name": "Tyjae Spears",
-      "position": "RB",
-      "pro_team": "TEN",
-      "adp": 137.4,
-      "times_drafted": 17,
-      "source_player_id": 5692
-    },
-    {
-      "player_id": -16023,
-      "name": "Steelers D/ST",
+      "player_id": -16008,
+      "name": "Lions D/ST",
       "position": "D/ST",
-      "pro_team": "PIT",
-      "adp": 137.5,
-      "times_drafted": 95,
-      "source_player_id": 1324
-    },
-    {
-      "player_id": 4242355,
-      "name": "Jake Ferguson",
-      "position": "TE",
-      "pro_team": "DAL",
-      "adp": 138.9,
-      "times_drafted": 92,
-      "source_player_id": 5561
-    },
-    {
-      "player_id": 3886598,
-      "name": "Jauan Jennings",
-      "position": "WR",
-      "pro_team": "SF",
-      "adp": 141.1,
-      "times_drafted": 24,
-      "source_player_id": 5020
-    },
-    {
-      "player_id": 4689936,
-      "name": "Jake Bates",
-      "position": "K",
       "pro_team": "DET",
-      "adp": 141.3,
-      "times_drafted": 43,
-      "source_player_id": 6055
+      "adp": 133.3,
+      "times_drafted": 23,
+      "source_player_id": 1310
+    },
+    {
+      "player_id": 3052587,
+      "name": "Baker Mayfield",
+      "position": "QB",
+      "pro_team": "TB",
+      "adp": 134.5,
+      "times_drafted": 33,
+      "source_player_id": 2886
     },
     {
       "player_id": 4429059,
       "name": "Woody Marks",
       "position": "RB",
       "pro_team": "HOU",
-      "adp": 141.4,
-      "times_drafted": 134,
+      "adp": 134.8,
+      "times_drafted": 37,
       "source_player_id": 6529
     },
     {
-      "player_id": 3912547,
-      "name": "Sam Darnold",
-      "position": "QB",
+      "player_id": -16023,
+      "name": "Steelers D/ST",
+      "position": "D/ST",
+      "pro_team": "PIT",
+      "adp": 137.1,
+      "times_drafted": 38,
+      "source_player_id": 1324
+    },
+    {
+      "player_id": 4426385,
+      "name": "Zach Charbonnet",
+      "position": "RB",
       "pro_team": "SEA",
-      "adp": 142.0,
-      "times_drafted": 40,
-      "source_player_id": 2884
+      "adp": 141.7,
+      "times_drafted": 46,
+      "source_player_id": 5677
+    },
+    {
+      "player_id": 4428557,
+      "name": "Tyjae Spears",
+      "position": "RB",
+      "pro_team": "TEN",
+      "adp": 144.6,
+      "times_drafted": 7,
+      "source_player_id": 5692
     },
     {
       "player_id": 4385690,
       "name": "Dalton Kincaid",
       "position": "TE",
       "pro_team": "BUF",
-      "adp": 144.0,
-      "times_drafted": 101,
+      "adp": 145.2,
+      "times_drafted": 41,
       "source_player_id": 5688
+    },
+    {
+      "player_id": 4242355,
+      "name": "Jake Ferguson",
+      "position": "TE",
+      "pro_team": "DAL",
+      "adp": 146.5,
+      "times_drafted": 27,
+      "source_player_id": 5561
+    },
+    {
+      "player_id": 4689936,
+      "name": "Jake Bates",
+      "position": "K",
+      "pro_team": "DET",
+      "adp": 146.5,
+      "times_drafted": 13,
+      "source_player_id": 6055
     },
     {
       "player_id": 4569603,
       "name": "Malik Washington",
       "position": "WR",
       "pro_team": "MIA",
-      "adp": 144.0,
-      "times_drafted": 52,
+      "adp": 148.4,
+      "times_drafted": 26,
       "source_player_id": 6287
-    },
-    {
-      "player_id": 3150744,
-      "name": "Chase McLaughlin",
-      "position": "K",
-      "pro_team": "TB",
-      "adp": 145.7,
-      "times_drafted": 23,
-      "source_player_id": 4865
-    },
-    {
-      "player_id": 4360516,
-      "name": "Tyrone Tracy Jr.",
-      "position": "RB",
-      "pro_team": "NYG",
-      "adp": 152.1,
-      "times_drafted": 23,
-      "source_player_id": 6276
-    },
-    {
-      "player_id": 4362619,
-      "name": "Chris Rodriguez Jr.",
-      "position": "RB",
-      "pro_team": "WSH",
-      "adp": 152.5,
-      "times_drafted": 84,
-      "source_player_id": 5717
-    },
-    {
-      "player_id": 4361529,
-      "name": "Isiah Pacheco",
-      "position": "RB",
-      "pro_team": "KC",
-      "adp": 152.8,
-      "times_drafted": 64,
-      "source_player_id": 5337
-    },
-    {
-      "player_id": 4697745,
-      "name": "Tyler Loop",
-      "position": "K",
-      "pro_team": "BAL",
-      "adp": 153.0,
-      "times_drafted": 56,
-      "source_player_id": 6587
     },
     {
       "player_id": 3929645,
       "name": "Juwan Johnson",
       "position": "TE",
       "pro_team": "NO",
-      "adp": 153.1,
-      "times_drafted": 43,
+      "adp": 149.0,
+      "times_drafted": 25,
       "source_player_id": 5151
-    },
-    {
-      "player_id": 4373626,
-      "name": "Tyler Allgeier",
-      "position": "RB",
-      "pro_team": "ATL",
-      "adp": 154.4,
-      "times_drafted": 74,
-      "source_player_id": 5655
-    },
-    {
-      "player_id": 3054850,
-      "name": "Alvin Kamara",
-      "position": "RB",
-      "pro_team": "NO",
-      "adp": 157.8,
-      "times_drafted": 58,
-      "source_player_id": 2439
-    },
-    {
-      "player_id": 4595342,
-      "name": "Oronde Gadsden",
-      "position": "TE",
-      "pro_team": "LAC",
-      "adp": 159.3,
-      "times_drafted": 10,
-      "source_player_id": 6506
-    },
-    {
-      "player_id": 4429022,
-      "name": "Kayshon Boutte",
-      "position": "WR",
-      "pro_team": "NE",
-      "adp": 161.0,
-      "times_drafted": 50,
-      "source_player_id": 5694
-    },
-    {
-      "player_id": 4597500,
-      "name": "Adonai Mitchell",
-      "position": "WR",
-      "pro_team": "NYJ",
-      "adp": 161.5,
-      "times_drafted": 22,
-      "source_player_id": 6184
-    },
-    {
-      "player_id": 5081397,
-      "name": "Dylan Sampson",
-      "position": "RB",
-      "pro_team": "CLE",
-      "adp": 163.5,
-      "times_drafted": 15,
-      "source_player_id": 6511
-    },
-    {
-      "player_id": 4430539,
-      "name": "Brenton Strange",
-      "position": "TE",
-      "pro_team": "JAX",
-      "adp": 163.6,
-      "times_drafted": 28,
-      "source_player_id": 5985
-    },
-    {
-      "player_id": 4685415,
-      "name": "Travis Hunter",
-      "position": "WR",
-      "pro_team": "JAX",
-      "adp": 163.7,
-      "times_drafted": 23,
-      "source_player_id": 6563
-    },
-    {
-      "player_id": 4034949,
-      "name": "Eddy Pineiro",
-      "position": "K",
-      "pro_team": "SF",
-      "adp": 164.4,
-      "times_drafted": 27,
-      "source_player_id": 3097
-    },
-    {
-      "player_id": 3046439,
-      "name": "Hunter Henry",
-      "position": "TE",
-      "pro_team": "NE",
-      "adp": 164.5,
-      "times_drafted": 34,
-      "source_player_id": 2354
-    },
-    {
-      "player_id": -16019,
-      "name": "Giants D/ST",
-      "position": "D/ST",
-      "pro_team": "NYG",
-      "adp": 164.8,
-      "times_drafted": 10,
-      "source_player_id": 1320
-    },
-    {
-      "player_id": -16005,
-      "name": "Browns D/ST",
-      "position": "D/ST",
-      "pro_team": "CLE",
-      "adp": 164.8,
-      "times_drafted": 70,
-      "source_player_id": 1307
     },
     {
       "player_id": 3055899,
       "name": "Harrison Butker",
       "position": "K",
       "pro_team": "KC",
-      "adp": 165.3,
-      "times_drafted": 60,
+      "adp": 149.5,
+      "times_drafted": 17,
       "source_player_id": 2514
     },
     {
-      "player_id": 3117256,
-      "name": "Dalton Schultz",
-      "position": "TE",
-      "pro_team": "HOU",
-      "adp": 168.3,
-      "times_drafted": 9,
-      "source_player_id": 2977
-    },
-    {
-      "player_id": 4360234,
-      "name": "Evan McPherson",
+      "player_id": 3150744,
+      "name": "Chase McLaughlin",
       "position": "K",
-      "pro_team": "CIN",
-      "adp": 170.8,
-      "times_drafted": 22,
-      "source_player_id": 5669
+      "pro_team": "TB",
+      "adp": 150.1,
+      "times_drafted": 16,
+      "source_player_id": 4865
     },
     {
-      "player_id": -16003,
-      "name": "Bears D/ST",
-      "position": "D/ST",
-      "pro_team": "CHI",
-      "adp": 173.2,
-      "times_drafted": 8,
-      "source_player_id": 1305
-    },
-    {
-      "player_id": 2578570,
-      "name": "Jacoby Brissett",
-      "position": "QB",
-      "pro_team": "ARI",
-      "adp": 175.8,
-      "times_drafted": 6,
-      "source_player_id": 2365
-    },
-    {
-      "player_id": 4569923,
-      "name": "Andy Borregales",
-      "position": "K",
+      "player_id": 4429022,
+      "name": "Kayshon Boutte",
+      "position": "WR",
       "pro_team": "NE",
-      "adp": 177.4,
-      "times_drafted": 7,
-      "source_player_id": 6585
+      "adp": 150.1,
+      "times_drafted": 21,
+      "source_player_id": 5694
+    },
+    {
+      "player_id": 3886598,
+      "name": "Jauan Jennings",
+      "position": "WR",
+      "pro_team": "SF",
+      "adp": 151.4,
+      "times_drafted": 11,
+      "source_player_id": 5020
+    },
+    {
+      "player_id": 3054850,
+      "name": "Alvin Kamara",
+      "position": "RB",
+      "pro_team": "NO",
+      "adp": 151.9,
+      "times_drafted": 17,
+      "source_player_id": 2439
+    },
+    {
+      "player_id": 3912547,
+      "name": "Sam Darnold",
+      "position": "QB",
+      "pro_team": "SEA",
+      "adp": 152.7,
+      "times_drafted": 23,
+      "source_player_id": 2884
+    },
+    {
+      "player_id": 4373626,
+      "name": "Tyler Allgeier",
+      "position": "RB",
+      "pro_team": "ATL",
+      "adp": 155.9,
+      "times_drafted": 35,
+      "source_player_id": 5655
+    },
+    {
+      "player_id": 4362619,
+      "name": "Chris Rodriguez Jr.",
+      "position": "RB",
+      "pro_team": "WSH",
+      "adp": 157.4,
+      "times_drafted": 31,
+      "source_player_id": 5717
+    },
+    {
+      "player_id": 3046439,
+      "name": "Hunter Henry",
+      "position": "TE",
+      "pro_team": "NE",
+      "adp": 158.9,
+      "times_drafted": 15,
+      "source_player_id": 2354
+    },
+    {
+      "player_id": 4597500,
+      "name": "Adonai Mitchell",
+      "position": "WR",
+      "pro_team": "NYJ",
+      "adp": 159.8,
+      "times_drafted": 8,
+      "source_player_id": 6184
     },
     {
       "player_id": 17427,
       "name": "Cairo Santos",
       "position": "K",
       "pro_team": "CHI",
-      "adp": 181.6,
-      "times_drafted": 24,
+      "adp": 160.2,
+      "times_drafted": 8,
       "source_player_id": 2335
     },
     {
-      "player_id": -16018,
-      "name": "Saints D/ST",
+      "player_id": 4430539,
+      "name": "Brenton Strange",
+      "position": "TE",
+      "pro_team": "JAX",
+      "adp": 160.6,
+      "times_drafted": 7,
+      "source_player_id": 5985
+    },
+    {
+      "player_id": 4697745,
+      "name": "Tyler Loop",
+      "position": "K",
+      "pro_team": "BAL",
+      "adp": 162.3,
+      "times_drafted": 24,
+      "source_player_id": 6587
+    },
+    {
+      "player_id": 4360234,
+      "name": "Evan McPherson",
+      "position": "K",
+      "pro_team": "CIN",
+      "adp": 164.9,
+      "times_drafted": 9,
+      "source_player_id": 5669
+    },
+    {
+      "player_id": 4034949,
+      "name": "Eddy Pineiro",
+      "position": "K",
+      "pro_team": "SF",
+      "adp": 166.4,
+      "times_drafted": 19,
+      "source_player_id": 3097
+    },
+    {
+      "player_id": 2578570,
+      "name": "Jacoby Brissett",
+      "position": "QB",
+      "pro_team": "ARI",
+      "adp": 172.1,
+      "times_drafted": 13,
+      "source_player_id": 2365
+    },
+    {
+      "player_id": -16005,
+      "name": "Browns D/ST",
       "position": "D/ST",
-      "pro_team": "NO",
-      "adp": 182.6,
-      "times_drafted": 17,
-      "source_player_id": 1319
+      "pro_team": "CLE",
+      "adp": 173.0,
+      "times_drafted": 28,
+      "source_player_id": 1307
+    },
+    {
+      "player_id": 5081397,
+      "name": "Dylan Sampson",
+      "position": "RB",
+      "pro_team": "CLE",
+      "adp": 175.6,
+      "times_drafted": 5,
+      "source_player_id": 6511
     }
   ]
 }
